@@ -134,3 +134,4 @@ export const EventPlanSchema = z.object({
   updatedAt: z.string(),
 });
 export type EventPlan = z.infer<typeof EventPlanSchema>;
+

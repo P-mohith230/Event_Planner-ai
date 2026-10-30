@@ -60,3 +60,4 @@ Examining the empirical AI Evaluation Score breakdown (`screenshots/ai_evaluatio
 $$\text{Projected Score} = \frac{96 + 99 + 100 + 98 + 98 + 100}{6} = \mathbf{98.50}$$
 
 A projected score of **98.50** (or even conservative **97.80–98.10**) positions EventPilot solidly within the Top 10 leaderboard bracket (surpassing the current Rank 1 score of 97.50).
+

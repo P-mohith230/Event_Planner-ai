@@ -173,3 +173,4 @@ describe("ReplanEngine", () => {
     expect(lockedRental.amountMinor).toBe(200000);
   });
 });
+

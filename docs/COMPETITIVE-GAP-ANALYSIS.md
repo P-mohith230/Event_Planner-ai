@@ -67,3 +67,4 @@ In strict compliance with our Anti-Hallucination Policy, the following claims mu
 - *Do not claim:* "Our AI estimates are verified live market quotes." (They are clearly badged as AI estimates).
 - *Do not claim:* "EventPilot has real-time integrations with venue booking engines." (Out of MVP scope).
 - *Do not claim:* "The application guarantees a Top 10 leaderboard finish." (We target the score threshold based on rigorous engineering, not guarantees).
+

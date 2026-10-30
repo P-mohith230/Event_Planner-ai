@@ -39,3 +39,4 @@ To ensure defensible, evidence-based innovation:
 - *Zola:* Verified cross-tool syncing, expense tracking, and cost index ([zola.com/wedding-planning](https://zola.com)).
 - *Lindy.ai:* Verified agent workflow, calendar integration, and multi-app triggers ([lindy.ai/tools/ai-event-planner-agent](https://lindy.ai)).
 - *LLM Math Reliability:* Verified literature on LLM arithmetic limitations and financial context drift ([engini.ai/chatgpt-math-limitations](https://engini.ai), 2026).
+

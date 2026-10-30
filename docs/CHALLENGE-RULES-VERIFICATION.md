@@ -81,3 +81,4 @@
 ## 3. IDENTIFIED RESEARCH GAPS & LIMITATIONS
 - **Specific AI Judge Model / Rubric Code:** The automated evaluation harness uses an internal scoring model that cannot be directly inspected; however, its output schema is now 100% verified via `ai_evaluation_score_breakdown.png`.
 - **Official Scoring Weights:** While each of the 6 dimensions displays an integer score out of 100, the exact mathematical weighting to produce `96.16` from `[88, 99, 100, 96, 98, 99]` suggests either an unweighted average (`580 / 6 = 96.67` with slight calibration) or a specific linear combination. Therefore, we treat all 6 dimensions as equally critical.
+

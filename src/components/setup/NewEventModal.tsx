@@ -253,3 +253,4 @@ export function NewEventModal({ isOpen, onClose, onCreatePlan }: NewEventModalPr
     </div>
   );
 }
+

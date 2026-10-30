@@ -149,3 +149,20 @@ All statements, research, claims, and findings must be labeled:
 - [x] **Step 9.3:** Verify `context.md` is complete, accurate, and reflects all decisions and test results.
 - [x] **Step 9.4:** Prepare final competition completion report for user.
 *Phase Status:* **COMPLETED & VERIFIED**
+
+
+---
+
+## 4. 10-PHASE IMPROVEMENT SPRINT TRACKER
+*(From `docs/ANTIGRAVITY-IMPROVEMENT-MASTER-PROMPT.md`)*
+
+- [x] **Phase 1: Existing Project Audit** — Baseline commands, 13 before screenshots, browser e2e audit, lighthouse (100/100/96/91), axe scans (8 violations), secret scan (clean), dependency audit (30 CVEs), `docs/AUDIT-V2.md`.
+- [ ] **Phase 2: Competitor Research Findings** — Update `docs/COMPETITOR-RESEARCH.md` & `docs/COMPETITIVE-GAP-ANALYSIS.md` with deep links, verify citations, add "Claims we must not make" to README.
+- [ ] **Phase 3: Innovation Selection** — Confirm signature innovation and 3 core features (I4 Confidence & Readiness, I3 Scenario Compare, I2 Tell the Pilot); write ADR-001 & ADR-002.
+- [ ] **Phase 4: Product and Feature Improvements (Specifications)** — Write `docs/FEATURE-SPECS-V2.md` with inputs, outputs, failure behavior, and 5+ test cases per feature.
+- [ ] **Phase 5: UI/UX Redesign** — CSS variables token layer, Google fonts (Inter, Fraunces, Bricolage Grotesque), accessible components, theme tokens, capture "after" screenshots.
+- [ ] **Phase 6: Technical Architecture Improvements** — SDK migration (`@google/genai`), API route hardening, lint rules, file splitting, security headers, persistence validation.
+- [ ] **Phase 7: Feature Implementation** — Implement I4 (Confidence), I3 (Scenario Compare), I2 (Tell the Pilot), Personalization Depth with unit/property tests.
+- [ ] **Phase 8: Comprehensive Test Suite** — Unit, property-based (fast-check), component, integration, and Playwright e2e tests across all user journeys.
+- [ ] **Phase 9: Production Build, Performance and Deployment** — Standalone build, Dockerfile, bundle analysis (< 130 kB), production audit verification.
+- [ ] **Phase 10: Submission Package and Demo** — 90s evaluator script, demo video assets, documentation audit, final release report.

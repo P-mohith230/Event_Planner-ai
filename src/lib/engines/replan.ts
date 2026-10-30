@@ -227,3 +227,4 @@ export function applyAcceptedChanges(
     updatedAt: new Date().toISOString(),
   };
 }
+

@@ -40,3 +40,4 @@ export const AISuggestionsResponseSchema = z.object({
   source: z.enum(["gemini-live", "deterministic-fallback"]),
 });
 export type AISuggestionsResponse = z.infer<typeof AISuggestionsResponseSchema>;
+

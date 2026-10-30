@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-10-30T11:11:41.510Z",
+  "features": {
+    "Wedding Sample Plan": "WORKS",
+    "Birthday Archetype Switch": "WORKS",
+    "Community Gala Archetype Switch": "WORKS",
+    "Timeline Workspace": "WORKS",
+    "Vendor Checklist Workspace": "WORKS",
+    "Personalized Ideas Workspace": "WORKS",
+    "Adopt Idea into Plan": "WORKS",
+    "Generate Ideas API Call": "WORKS",
+    "Accept / Reject Plan Change": "WORKS",
+    "Create Custom Event Plan": "WORKS",
+    "Reset Plan to Default": "WORKS"
+  },
+  "consoleLogs": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "networkErrors": []
+}

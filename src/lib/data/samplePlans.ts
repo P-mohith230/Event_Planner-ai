@@ -628,3 +628,4 @@ export const SAMPLE_PLANS: Record<string, EventPlan> = {
   birthday: SAMPLE_BIRTHDAY_PLAN,
   community: SAMPLE_COMMUNITY_PLAN,
 };
+

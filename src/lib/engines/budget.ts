@@ -165,3 +165,4 @@ export function formatCurrency(
     return isNegative ? `-${symbol}${fixed}` : `${symbol}${fixed}`;
   }
 }
+

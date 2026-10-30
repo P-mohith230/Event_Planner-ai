@@ -16,18 +16,18 @@
 ---
 
 ## 2. CURRENT PROJECT STATUS
-- **Current Phase:** Phase 9 — Competition Readiness & Final Certification
-- **Overall Status:** `PASS / RELEASE READY`
-- **Milestones Completed:**
-  - Phase 1: Audit, Rules Verification & Leaderboard Strategy (`PASS`)
-  - Phase 2: Competitor Research & Signature Innovation Decision (`PASS`)
-  - Phase 3: Technical Architecture & Core System Contracts (`PASS`)
-  - Phase 4: Deterministic Core Engines (`PASS`)
-  - Phase 5: Signature Innovation — The Living Plan Replan Engine (`PASS`)
-  - Phase 6: Server-Side AI Integration & Deterministic Fallback (`PASS`)
-  - Phase 7: UI/UX Design Polish & Accessibility Engineering (`PASS`)
-  - Phase 8: Quality Assurance & Release Gates (`PASS`)
-  - Phase 9: Competition Readiness & Demo Scripts (`PASS`)
+- **Current Phase:** Phase 1 (Audit) Completed; Ready for Phase 2 (Competitor Research)
+- **Branch:** `improve/living-plan-v2` (tagged `baseline-pre-improvement` at `1c8cf4f`)
+- **Overall Status:** `IN PROGRESS (Phase 1 Audit Complete)`
+- **Audited Baseline Status:**
+  - Install, Typecheck, Lint, Test (19/19), Build: ALL PASS (Exit 0)
+  - Browser E2E Inspection: 11/11 core features verified as `WORKS`
+  - Production Lighthouse: Performance 100, Accessibility 100, Best Practices 96, SEO 91
+  - Axe Core Scan: 8 violations detected across main view & modals (3 critical, 5 serious)
+  - Dependency Audit: 30 CVEs detected in `next@14.2.35`
+  - Secrets Scan: 0 leaks in git log or `.next` bundle
+  - Deprecated SDK: `@google/generative-ai` to be migrated to `@google/genai`
+  - Invalid Model: `gemini-2.5-flash` to be corrected to `gemini-1.5-flash` or `gemini-2.0-flash`
 
 ---
 
@@ -163,12 +163,17 @@
 ---
 
 ## 16. KNOWN BUGS AND UNRESOLVED WARNINGS
-- None. Zero known blocking build errors, zero test failures, zero lint warnings.
+- 30 production CVEs in `next@14.2.35` (3 critical, 12 high) reported by `pnpm audit --prod`.
+- 8 Axe accessibility violations (`aria-required-children`, `label-content-name-mismatch`, `color-contrast`) across main view and modals.
+- Browser console 404 error requesting missing `/favicon.ico`.
+- Deprecated AI SDK `@google/generative-ai` and non-existent model string `gemini-2.5-flash`.
+- Unsafe `localStorage` parsing without `EventPlanSchema.safeParse`.
+- Monolithic `src/app/page.tsx` (436 lines).
 
 ---
 
 ## 17. CURRENT BLOCKERS
-- None.
+- None. Ready for Phase 2.
 
 ---
 
@@ -184,8 +189,8 @@
 ---
 
 ## 20. NEXT RECOMMENDED ACTIONS
-- The application is complete, tested, and competition-ready.
-- Optional: Configure `GEMINI_API_KEY` in `.env.local` if live Gemini model calls are desired during evaluator walkthrough.
+- Review Phase 1 audit report with user (`docs/AUDIT-V2.md`).
+- Proceed to Phase 2 (Competitor Research Findings & Corrections).
 
 ---
 
@@ -196,9 +201,6 @@
 
 ## 22. CHANGE LOG WITH DATES
 - **2026-10-29:** Initial audit, documentation inspection, and official screenshot archiving.
-- **2026-10-29:** Phase 1 (Audit & Verification) and Phase 2 (Competitor Research & Innovation Decision) completed.
-- **2026-10-30:** Next.js project scaffolded with TypeScript strict mode, Tailwind CSS, Lucide icons, Vitest.
-- **2026-10-30:** Deterministic engines (`budget.ts`, `schedule.ts`, `replan.ts`) implemented with 100% passing tests.
-- **2026-10-30:** Server-side Gemini integration and deterministic fallback implemented with route handler.
-- **2026-10-30:** Full accessible UI implemented (Budget, Timeline, Vendors, Ideas, Replan Review Modal).
-- **2026-10-30:** All release quality gates passed (`typecheck`, `lint`, `test`, `build`). Release report generated.
+- **2026-10-30:** Initial build, deterministic engines, and full UI implemented.
+- **2026-10-30:** Created `baseline-pre-improvement` git tag and `improve/living-plan-v2` branch.
+- **2026-10-30:** Completed Phase 1 comprehensive audit: ran real baseline commands (`install`, `typecheck`, `lint`, `test`, `build`), captured 13 production screenshots across 3 viewports, executed deep Playwright e2e inspection, ran Lighthouse (Perf 100, A11y 100), ran Axe scans (8 violations found), audited dependencies (30 CVEs found in next 14.2.35), scanned for secrets (0 leaks), and compiled `docs/AUDIT-V2.md`.

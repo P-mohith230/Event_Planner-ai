@@ -67,3 +67,4 @@ EventPilot implements a **Hybrid Deterministic-Generative Architecture**:
 - Web scraping of local venue websites.
 - Real-time multi-user WebSockets.
 - Weather radar API integrations.
+

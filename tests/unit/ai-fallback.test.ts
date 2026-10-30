@@ -57,3 +57,4 @@ describe("AI Integration & Fallback Engine", () => {
     expect(commFallback.ideas.length).toBeGreaterThan(0);
   });
 });
+

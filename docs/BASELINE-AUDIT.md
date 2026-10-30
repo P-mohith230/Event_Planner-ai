@@ -74,3 +74,4 @@ An exhaustive audit of the workspace `M:\eventplanner_ai` was conducted prior to
 4. Set up strict linting and formatting.
 5. Provide `.env.example` containing placeholder environment variables (`GEMINI_API_KEY`).
 6. Commit the baseline state to ensure clear provenance and reversible change tracking.
+

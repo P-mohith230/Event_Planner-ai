@@ -45,3 +45,4 @@ export function ProvenanceBadge({ provenance, className = "" }: ProvenanceBadgeP
     </span>
   );
 }
+
