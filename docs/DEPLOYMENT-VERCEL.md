@@ -40,3 +40,4 @@ Under **Settings** $\rightarrow$ **Environment Variables**, add the following ke
   - `Referrer-Policy: strict-origin-when-cross-origin`
   - `Permissions-Policy: camera=(), microphone=(), geolocation=()`
 - Guaranteed deterministic fallback: Even if the API key is not configured in preview builds, the application seamlessly runs using its zero-dependency offline calculation and template engine without throwing errors.
+
