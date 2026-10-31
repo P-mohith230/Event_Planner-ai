@@ -120,3 +120,4 @@ For each: what to do, how to measure it, and what evidence to save. Targets are 
 
 ## 6. Realistic expectations
 The top of the visible board is separated by hundredths of a point across roughly 51,600 entries (V arithmetic from the screenshot). At that margin, outcomes depend on details no one outside the evaluator can see. The strategy raises the *probability* of a strong score by removing verifiable weaknesses and adding one clear, working differentiator. It cannot guarantee a Top 10 or first place, and the team should not claim otherwise in the submission.
+

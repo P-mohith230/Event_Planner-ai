@@ -114,3 +114,4 @@ Security notes for I2: treat `text` as untrusted; never echo model output as HTM
 | Scenario mutation bugs corrupt the plan | Property test: plan deep-equals its snapshot after `runScenarios` |
 | Scope creep on a plan that already passes gates | Each feature is behind its own gate; regress-test existing suites first |
 | Gemini quota or key missing at evaluation time | Verify deployed env; visible source label; honest fallback message |
+

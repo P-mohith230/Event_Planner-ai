@@ -211,3 +211,4 @@ Write the specs into `docs/FEATURE-SPECS-V2.md` before coding. Reuse existing ty
 11. Remaining risks and exact next actions.
 
 Do not state or imply a leaderboard rank or score. Do not mark anything complete without evidence. If a gate fails and you cannot fix it, report it as failed and explain.
+

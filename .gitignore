@@ -30,3 +30,6 @@ pnpm-debug.log*
 # System Files
 .DS_Store
 Thumbs.db
+
+# PDF documents
+*.pdf

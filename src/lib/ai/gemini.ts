@@ -25,7 +25,7 @@ export async function generateEventSuggestions(
 
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
-    const modelName = process.env.GEMINI_MODEL?.trim() || "gemini-2.5-flash";
+    const modelName = process.env.GEMINI_MODEL?.trim() || "gemini-3.5-flash-lite";
 
     const model = genAI.getGenerativeModel({
       model: modelName,

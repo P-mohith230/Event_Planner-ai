@@ -154,3 +154,4 @@ Map these through the Tailwind config as semantic tokens (`bg-bg`, `text-accent`
 1. Is there an existing logo or brand color to preserve?
 2. Does the current UI already have any event-type visual differences?
 3. Is a dark mode required? Not recommended for this scope; if added, re-measure every ratio.
+

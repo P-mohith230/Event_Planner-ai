@@ -72,3 +72,4 @@ A hackathon judge likely compares EventPilot with other Challenge 5 submissions,
 2. Birthday and community-event tools beyond invites (checklists, budgets, volunteer coordination).
 3. Cultural and multi-day event structures (several ceremonies, regional customs) and how incumbents handle them.
 4. A real user conversation or two to test P5 and P6.
+

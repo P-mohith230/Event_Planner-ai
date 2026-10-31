@@ -56,3 +56,4 @@ runLighthouseAudit().catch((e) => {
   console.error("Lighthouse script error:", e);
   process.exit(1);
 });
+
